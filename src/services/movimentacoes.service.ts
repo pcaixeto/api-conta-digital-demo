@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
@@ -47,5 +48,9 @@ export class MovimentacoesService {
       throw new Error('Conta não encontrada');
     }
     return conta.movimentacoes;
+  }
+  
+  async consultaTodasMovimentacoes(): Promise<Movimentacao[]> {
+    return this.movimentacaoRepository.find({ relations: ['conta'] });
   }
 }

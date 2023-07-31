@@ -1,27 +1,3 @@
--- CREATE TABLE Cliente (
---     cliente_id SERIAL PRIMARY KEY,
---     nome VARCHAR(100) NOT NULL,
---     email VARCHAR(100) NOT NULL,
---     cpf VARCHAR(14) NOT NULL,
---     data_nascimento DATE NOT NULL
--- );
-
--- CREATE TABLE Conta (
---     conta_id SERIAL PRIMARY KEY,
---     cliente_id INTEGER REFERENCES Cliente(cliente_id),
---     saldo NUMERIC(10, 2) NOT NULL DEFAULT 0,
---     data_abertura DATE NOT NULL
--- );
-
--- CREATE TABLE Movimentacao (
---     movimentacao_id SERIAL PRIMARY KEY,
---     conta_id INTEGER REFERENCES Conta(conta_id),
---     tipo_movimentacao VARCHAR(10) NOT NULL,
---     valor NUMERIC(10, 2) NOT NULL,
---     data_movimentacao TIMESTAMP NOT NULL
--- );
-
-
 CREATE TABLE "cliente" (
     "cliente_id" SERIAL NOT NULL,
     "nome" character varying NOT NULL,

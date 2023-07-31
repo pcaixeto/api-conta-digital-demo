@@ -3,17 +3,22 @@ import { Controller, Post, Get, Param, Body } from '@nestjs/common';
 import { Movimentacao } from '../entities/movimentacao.entity';
 import { MovimentacoesService } from '../services/movimentacoes.service';
 
-@Controller('contas/:conta_id/movimentacoes')
+@Controller('movimentacoes')
 export class MovimentacoesController {
   constructor(private readonly movimentacoesService: MovimentacoesService) {}
 
-  @Post()
-  async cadastroMovimentacao(@Param('conta_id') contaId: number,@Body() movimentacao: Movimentacao,) {
+  @Post(':conta_id')
+  async cadastroMovimentacao(@Param('conta_id') contaId: number, @Body() movimentacao: Movimentacao,) {
     return this.movimentacoesService.cadastroMovimentacao(contaId, movimentacao);
   }
 
-  @Get()
+  @Get(':conta_id')
   async consultaMovimentacoes(@Param('conta_id') contaId: number) {
     return this.movimentacoesService.consultaMovimentacoes(contaId);
+  }
+
+  @Get()
+  async consultaTodasMovimentacoes() {
+    return this.movimentacoesService.consultaTodasMovimentacoes();
   }
 }

@@ -24,5 +24,5 @@ export class ContasController {
   @Get()
   async consultaTodasContas() {
     return this.contasService.consultaTodasContas();
-}
+  }
 }
