@@ -5,7 +5,7 @@
 ## Screenshot
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="src/assets/diagrama-entidade-relacionamento.png" width="400px">
+   <img src="assets/diagrama-entidade-relacionamento.png" width="400px">
    <img src="src/assets/modelo-entidade-relacionamento.jpg" width="400px">
 </div>
 
