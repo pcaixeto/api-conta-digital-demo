@@ -15,7 +15,8 @@ API CONTA DIGITAL DEMO
 </div>
 
 ## Scripts DDL e DML
-Os scripts podem ser encontrados na pasta (scripts-SQL)[https://github.com/pcaixeto/api-conta-digital-demo/tree/main/scripts-SQL]
+Os scripts podem ser encontrados na pasta [scripts-SQL](https://github.com/pcaixeto/api-conta-digital-demo/tree/main/scripts-SQL).
+
 
 ## API
 
