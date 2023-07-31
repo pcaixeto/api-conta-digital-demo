@@ -49,6 +49,6 @@ export class ContasService {
   }
 
   async consultaTodasContas(): Promise<Conta[]> {
-    return this.contaRepository.find(); //find() retorna entidades que correspondem
+    return this.contaRepository.find();
   }
 }

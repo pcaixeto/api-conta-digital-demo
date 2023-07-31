@@ -18,6 +18,6 @@ export class Cliente {
   @Column({ type: 'date' })
   data_nascimento: Date;
 
-  @OneToMany(() => Conta, (conta) => conta.cliente) //entender melhor isso aqui
+  @OneToMany(() => Conta, (conta) => conta.cliente)
   contas: Conta[];
 }
