@@ -2,26 +2,43 @@
 # API CONTA DIGITAL DEMO
 </h1>
 
-## Screenshot
+## Diagrama Entidade Relacionamento
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="assets/diagrama-entidade-relacionamento.png" width="400px">
-   <img src="assets/modelo-entidade-relacionamento.png" width="400px">
+   <img src="assets/diagrama-entidade-relacionamento.png" width="600px">
 </div>
 
-## 📥 How to run
+## Modelo Entidade Relacionamento
 
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+   <img src="assets/modelo-entidade-relacionamento.png" width="600px">
+</div>
+
+## Scripts DDL e DML
+Os scripts podem ser encontrados na pasta scripts-SQL
+
+## API
+
+### Arquitetura da API
+
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+   <img src="assets/arquitetura-api.png" width="600px">
+</div>
+
+
+## Como rodar a API
 ```bash
-# Clone the project:
+# Clone o repositorio:
 $ git clone 
 
-# Install the dependencies
+# Instale as dependencias
 $ npm install
 
-# Run in browser
-$ npm run dev
+# Execute no Browser
+$ npm run start
 
 ```
+OBS: o postgres usado é privado, configure seu próprio DB em ormconfig.json e src/app.module.ts
 
 # :rocket: Features
 
