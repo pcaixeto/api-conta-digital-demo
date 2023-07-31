@@ -1,5 +1,5 @@
 <h1 align="center">
-# API CONTA DIGITAL DEMO
+API CONTA DIGITAL DEMO
 </h1>
 
 ## Diagrama Entidade Relacionamento
@@ -15,7 +15,7 @@
 </div>
 
 ## Scripts DDL e DML
-Os scripts podem ser encontrados na pasta scripts-SQL
+Os scripts podem ser encontrados na pasta (scripts-SQL)[https://github.com/pcaixeto/api-conta-digital-demo/tree/main/scripts-SQL]
 
 ## API
 
