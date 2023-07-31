@@ -1,7 +1,7 @@
 <h1 align="center">
 API CONTA DIGITAL DEMO
 </h1>
-
+teste
 ## Diagrama Entidade Relacionamento
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
@@ -26,6 +26,16 @@ Os scripts podem ser encontrados na pasta [scripts-SQL](https://github.com/pcaix
    <img src="assets/arquitetura-api.png" width="600px">
 </div>
 
+## 💻 Tecnologias e features usadas
+
+<ul>
+  <li>Typescript</li>
+  <li>NestJS</li>
+  <li>TypeORM</li>
+  <li>Postman</li>
+  <li>PostgreSQL</li>
+</ul>
+
 
 ## Como rodar a API
 ```bash
@@ -47,23 +57,12 @@ OBS: o postgres usado é privado, configure seu próprio DB em ormconfig.json e 
 - User authentication
 - All testing is being made with Postman and Jest
 
-## 💻 Technologies and libraries
 
-<ul>
-  <li>NodeJS</li>
-  <li>NestJS</li>
-  <li>Typescript</li>
-  <li>Jest</li>
-</ul>
-
-### Deployed in Vercel
-
-[Click Here to show](https://dog-list-demo.vercel.app/)
-
-## :scroll: TO-DOS
-   - (DONE)Create tests with Jest
+## TO-DOS
+   - Interface do Cliente (front)
    - User Authentication
-   - Frontend Interface
+   - HTTP erros mais explicitos
+   - testes unitarios usando o Jest
 
 
 **By: Pedro Caixeta**
