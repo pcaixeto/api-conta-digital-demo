@@ -6,7 +6,7 @@
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
    <img src="assets/diagrama-entidade-relacionamento.png" width="400px">
-   <img src="src/assets/modelo-entidade-relacionamento.jpg" width="400px">
+   <img src="assets/modelo-entidade-relacionamento.png" width="400px">
 </div>
 
 ## 📥 How to run
