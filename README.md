@@ -29,7 +29,7 @@ Os scripts podem ser encontrados na pasta [scripts-SQL](https://github.com/pcaix
 ### Documentação da API
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="assets/documentacao-api.png" width="600px">
+   <img src="assets/documentacao-api-corrigida.png" width="600px">
 </div>
 
 ## Tecnologias e features usadas
